@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./drop-artwork.css">
+   <!--- <link rel="stylesheet" href="./igrid.css">--->
+    <link rel="stylesheet" href="./agrid.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./bgrid.css">
+    <script src="https://use.fontawesome.com/2012cc4524.js"></script>
+    <script src="https://kit.fontawesome.com/1ecf6754ff.js" crossorigin="anonymous"></script>
+    <script defer src="./code.js"></script>
+</head>
+<body> 
+    <div id="artdropdown" class="overlay"><h2>first</h2></div>
+    <div id="artdropdown-delay-top"class="overlay-top">
+        <button id="closeart" onclick="closeArt()">close</button>
+        <h2> Art-Work And illustartions made by me </h2> 
+        <div class="artwork-flexbox">
+        <div class="bigpic" id="viewImageDOM">
+            <img id="makeItBigNow" src="" alt="">
+        </div>
+        <div class="allpics"> 
+            <div class="images">
+                
+                <img id="magician" src="./IMG_3774.jpeg" alt="magicianImage" onclick="makeItBigNow('magician')">
+                <img id= "floating" src="./IMG_0098.jpg" alt="floating"onclick="makeItBigNow('floating')" >
+          </div> 
+            <div class=images>
+                <img id="houseday" src="./IMG_1488.JPG" alt="houseday"onclick="makeItBigNow('houseday')" >
+                <img id="housered"src="./IMG_1486.JPG" alt="housered"onclick="makeItBigNow('housered')" >
+                <img id="space"src="./IMG_0418.jpeg" alt="space"onclick="makeItBigNow('space')" >
+                <img id="whales"src="IMG_8410.jpeg" alt="whales"onclick="makeItBigNow('whales')" >
+                
+            </div>
+            <div class="images">
+                <img id ="alice"src="./image0.jpeg" alt="alice" onclick="makeItBigNow('alice')">
+                <img id="fish" src="IMG_6687.jpeg" alt="fish"onclick="makeItBigNow('fish')" >
+            </div>
+        </div>
+    </div>
+   </div>
+   
+    
+    
+    
+
+    <header>
+
+        <div class="header">
+<div class="border-box">
+    <div class="home"><h1 style="font-size:4vw;"> Esther Reichmann</h1>
+        <hr style="border:none; padding:1px;">
+        <p style="font-size:2vw;">frontend developer</p>
+    </div>
+</div>
+
+</div>
+
+
+    </header>
+    <nav></nav>
+  <!---  <igrid><div class="igrid-flexbox">
+        <div class="igrid-flexbox-item">
+            <img src="./image0.jpeg" alt="esther">
+        </div>
+       
+    </div></igrid>-->
+    <agrid>
+       
+        <div class="flexbox-agrid-area-row">
+            <div class="item-agrid-area"><img src="./bw.jpeg"></div>
+            <div class="item-agrid-area"><h2  style="font-size:2vw;">This is me</h2> <br>
+                <p  style="font-size:2vw;">I am Esther Reichmann, a 22 year old frontend develepor student living in Sweden</p> <br>
+            </div>
+            
+            <!-- <div  class="item-agrid-area"> <h1 id= "test">a</h1> <button onclick="test()">test</button> <button onclick="testBort()">testBort</button> <button onclick="testVisa()">testVisa</button><button onclick="testVisa2()">testVisa2</button></div>
+            <div class="item-agrid-area"><h1 id= "blind">aa</h1></div> 
+      
+        <div class="item-agrid-area"><h1 id= "blind2">aaa</h1></div>-->
+    </div>
+    </agrid> 
+    <bgrid> 
+        <h2 id="text-bgrid-area">find out more about me</h2>
+        <div class ="flexbox-bgrid-area">
+            <div  class="item-bgrid-area"><button id="button1" onclick="openArt()" ><p style="font-size:2vw;">artwork and illustrations</p></button></div>
+            <div  class="item-bgrid-area"><button id="button2" ><p style="font-size:2vw;">resume</p></button></div>
+            <div  class="item-bgrid-area"><button id="button3"><p style="font-size:2vw;">education</p></button></div>
+            <div class="item-bgrid-area"><button id="button4"><p style="font-size:2vw;">personal letter</p></button></div>
+        
+    </div>
+    <div class ="flexbox-bgrid-area-contactinfo">
+        <h4 style="font-size:2vw;" >contact information:</h4>
+         <div><i  style="font-size:2vw;" class="far fa-envelope"></i></div>
+         <div><i style="font-size:2vw;" class="fab fa-github"></i> </div>
+         <div><i style="font-size:2vw;"class="fas fa-phone"></i></div>
+       
+       <!-- <div class="GROWING">
+        <p><i  style="font-size:2vw;" class="far fa-envelope fa-5x"></i>
+       esther.reichmann@me.com</p>
+      </div> -->
+
+</div>
+</bgrid>
+    <!-- <cgrid>c</cgrid>
+    <dgrid>d</dgrid>
+    <egrid>e</egrid>
+    <fgrid>f</fgrid>
+   
+    <footer><a href="https://www.freepik.com/vectors/background">Background vector created by freepik - www.freepik.com</a></footer>
+    --> 
+</html>

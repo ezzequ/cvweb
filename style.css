@@ -1,0 +1,178 @@
+*{
+    font-family: Optima;
+}
+
+body{
+    margin: 0;
+    display:grid;
+    grid-template-columns: repeat(9, 3fr);
+    grid-template-areas:
+    "h h h h h h h h h"
+    /*"n n n n n n n n n"*/
+    "a a a a a a a a a"
+    "a a a a a a a a a"
+    "b b b b b b b b b"
+   ;
+    /* background-color: rgb(46, 17, 114); */
+    font-family: Optima;
+
+   
+}
+
+header {
+    
+    grid-area: h;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background-image: url(4320533.jpg);
+     /* background-image: url(bg.jpeg);*/
+    background-size: cover;     
+    background-repeat:   no-repeat;
+    background-position: center center;
+   
+   
+
+}
+/*
+nav{
+    grid-area: n;
+    background-color: rgba(174, 239, 248, 0);
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    grid-template-columns: auto;
+    contain: content;
+    grid-template-columns: auto;
+    padding: 20px;
+    box-shadow:18px 10px 18px 10px rgba(80, 33, 40, 0);
+    border-bottom: rgba(255, 182, 193, 0);
+    border-bottom-style: dashed;
+    border-bottom-width: 5px;
+}
+*/
+agrid{
+    grid-area: a;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto;
+    contain: content;
+    /*padding: 90px;*/
+    border-color: rgba(255, 182, 193, 0);
+    /*border-bottom-style: dashed;
+    border-width: 3px;
+    border-top-width: 3px;*/
+    
+}
+
+igrid{
+    grid-area: i;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto;
+    contain: content;
+    /*padding: 90px;*/
+   /* border-color: lightpink;
+    border-bottom-style: dashed;
+    border-width: 3px;
+    border-top-width: 3px;*/
+    
+}
+
+
+bgrid{
+    /*border-top-style: double;
+    border-top-width: 9px;
+    border-color: lightpink;*/
+    grid-area: b;
+    justify-content: center;
+    align-items: center;
+    
+   grid-template-columns: auto;
+    contain: content;
+
+    background-image: url(flipped.jpg);
+    background-size: cover;     
+    background-repeat:   no-repeat;
+    background-position: center center;
+
+}
+
+cgrid{
+    
+    
+    
+    grid-area: c;
+    /* background-color:rgb(248, 246, 246); */
+    justify-content: center;
+    align-items: center;
+    
+    grid-template-columns: auto;
+    
+    contain: content;
+ 
+   /* border-bottom-style: double;
+    border-bottom-width: 9px;
+    border-color: lightpink;*/
+    
+}
+
+
+dgrid{
+    border-left: double;
+    border-left-width: 9px;
+    border-color: lightpink;
+    grid-area: d;
+    /* background-color: rgb(248, 246, 246); */
+    justify-content: center;
+    align-items: center;
+  
+    grid-template-columns: auto;
+    contain: content;
+    grid-template-columns: auto;
+    
+    border-left-style: dashed;
+    border-left-width: 3px;
+    border-color: lightpink;
+    border-bottom-style: double;
+    border-bottom-width: 9px;
+    border-color: lightpink;
+}
+
+egrid{
+    grid-area: e;
+    /* background-color: rgb(248, 246, 246); */
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    grid-template-columns: auto;
+    contain: content;
+    grid-template-columns: auto;
+    
+    border-top-style: dashed;
+    border-top-width: 3px;
+    border-color: lightpink;
+}
+
+
+
+fgrid{
+    grid-area: f;
+    /* background-color: rgb(248, 246, 246); */
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    grid-template-columns: auto;
+    contain: content;
+    grid-template-columns: auto;
+    
+    border-top-style: dashed;
+    border-top-width: 3px;
+    border-color: lightpink;
+}
+

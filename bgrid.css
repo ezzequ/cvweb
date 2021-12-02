@@ -1,0 +1,107 @@
+.flexbox-bgrid-area{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    padding-bottom: 20px;
+   justify-content: flex-start, center;
+   
+  justify-content: center;
+  color: rgb(150, 99, 156);
+   
+
+}
+.item-bgrid-area{
+text-align: center;
+padding: 10px;
+color: rgb(103, 71, 107);
+justify-content: center;
+
+    
+}
+
+.item-bgrid-area button{
+padding: 2px;
+border-radius: 5px;
+border: none;
+color: rgb(238, 238, 238);
+background-color:rgb(103, 71, 107);
+
+
+}
+
+#text-bgrid-area{
+    text-align: center;
+    color: rgb(103, 71, 107);
+    font-family: Arial, 'Courier New',;
+}
+#button1{
+    background-color: rgb(150, 99, 156);
+}
+
+#button2{
+    background-color: rgb(186, 145, 190);
+}
+
+#button3{
+    background-color: rgb(162, 70, 170);
+}
+#button4{
+    background-color: rgb(196, 109, 204);
+}
+
+.flexbox-bgrid-area-contactinfo{
+  
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: top;
+   padding-bottom: 20px;
+   margin-bottom: 70px;
+   background-color: rgba(255, 255, 255, 0.616);
+    color: rgb(150, 99, 156);
+    max-width: 70%;
+
+}
+
+.flexbox-bgrid-area-contactinfo i{
+    padding:12px;
+    color:rgb(104, 53, 109);
+    background: rgb(255, 255, 255);
+    border-radius: 80px;
+    font-weight: bolder;
+    margin: 2px;
+
+   
+
+}
+.GROWING{
+    background-color: rgb(150, 99, 156);
+    width: 30px;
+    color: rgb(238, 238, 238);
+    padding: 7px;
+    border-radius: 15px;
+
+    transition-property: width;
+    transition-duration: 5s;
+    white-space: nowrap;
+     overflow: hidden;
+     justify-content: center;
+    justify-content: center;
+    
+}
+
+.GROWING:hover{
+    width: 300px;
+  }
+.contactInfoIcons i{
+    padding:10px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(211, 136, 211);
+    border-radius: 100px;
+    font-weight: bolder;
+    box-shadow: rgba(0, 0, 0, 0.185) 0px 0px 15px 0px;
+    
+   
+   
+}
+

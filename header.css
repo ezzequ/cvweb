@@ -1,0 +1,35 @@
+
+.header{
+    padding:3rem;
+
+
+}
+
+.home {
+    color: rgb(103, 71, 107);
+    font-family:"Optima";
+    padding: 30px;
+    white-space: nowrap;
+    margin: 0;
+    text-align: center;
+   
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: rgba(80, 78, 78, 0.077);
+   text-shadow:10px 4px rgba(185, 126, 126, 0.336); 
+    
+   
+}
+
+.border-box{
+    border: 5px solid #ffffff00 ; 
+     box-shadow: 6px 6px 12px 12px rgba(0, 0, 0, 0.253);
+     
+
+}
+
+.home hr{
+    background-color: rgb(103, 71, 107);
+
+
+}
