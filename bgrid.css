@@ -35,18 +35,18 @@ background-color:rgb(103, 71, 107);
     font-family: Arial, 'Courier New',;
 }
 #button1{
-    background-color: rgb(150, 99, 156);
+    background-color:  rgb(150, 99, 156);
 }
 
 #button2{
-    background-color: rgb(186, 145, 190);
+    background-color: rgb(150, 99, 156);
 }
 
 #button3{
-    background-color: rgb(162, 70, 170);
+    background-color: rgb(150, 99, 156);
 }
 #button4{
-    background-color: rgb(196, 109, 204);
+    background-color:rgb(150, 99, 156) ;
 }
 
 .flexbox-bgrid-area-contactinfo{
@@ -60,39 +60,27 @@ background-color:rgb(103, 71, 107);
    background-color: rgba(255, 255, 255, 0.616);
     color: rgb(150, 99, 156);
     max-width: 70%;
+    text-align: baseline;
+   
 
 }
 
 .flexbox-bgrid-area-contactinfo i{
     padding:12px;
     color:rgb(104, 53, 109);
-    background: rgb(255, 255, 255);
     border-radius: 80px;
     font-weight: bolder;
-    margin: 2px;
+    align-content: baseline;
+    margin-top: 11px;
+   
 
    
 
 }
-.GROWING{
-    background-color: rgb(150, 99, 156);
-    width: 30px;
-    color: rgb(238, 238, 238);
-    padding: 7px;
-    border-radius: 15px;
-
-    transition-property: width;
-    transition-duration: 5s;
-    white-space: nowrap;
-     overflow: hidden;
-     justify-content: center;
-    justify-content: center;
-    
+.contact-row{
+    display: flex;
+    flex-direction: row
 }
-
-.GROWING:hover{
-    width: 300px;
-  }
 .contactInfoIcons i{
     padding:10px;
     color:rgb(255, 255, 255);
@@ -100,6 +88,7 @@ background-color:rgb(103, 71, 107);
     border-radius: 100px;
     font-weight: bolder;
     box-shadow: rgba(0, 0, 0, 0.185) 0px 0px 15px 0px;
+    
     
    
    

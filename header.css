@@ -12,11 +12,13 @@
     white-space: nowrap;
     margin: 0;
     text-align: center;
+    justify-content: center;
+    margin: auto;
    
     background-repeat: no-repeat;
     background-size: cover; 
     background-color: rgba(80, 78, 78, 0.077);
-   text-shadow:10px 4px rgba(185, 126, 126, 0.336); 
+   text-shadow:10px 4px rgba(75, 69, 69, 0.137); 
     
    
 }

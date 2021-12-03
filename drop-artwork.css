@@ -7,7 +7,7 @@
    z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba(200, 50, 205, 0.966);
+    background-color: rgba(107, 64, 109, 0.568);
     overflow-y: hidden;
     transition: 0.5s;
    
@@ -21,9 +21,10 @@
     z-index: 4;
     top: 0;
     left: 0;
-    background-color: rgba(247, 252, 237, 0.966);
+    background-color: rgba(23, 23, 24, 0.651);
     transition: 0.5s;
     overflow: auto;
+    color: whitesmoke;
     
 }
 
@@ -36,7 +37,7 @@
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: #f5f1f1;
     display: block;
     transition: 0.3s;
    
