@@ -24,9 +24,16 @@ padding: 2px;
 border-radius: 5px;
 border: none;
 color: rgb(238, 238, 238);
-background-color:rgb(103, 71, 107);
+background-color: rgb(150, 99, 156);
 
 
+}
+
+
+.item-bgrid-area button:hover{
+    background-color:rgb(109, 58, 109);
+    
+    
 }
 
 #text-bgrid-area{
@@ -34,20 +41,7 @@ background-color:rgb(103, 71, 107);
     color: rgb(103, 71, 107);
     font-family: Arial, 'Courier New',;
 }
-#button1{
-    background-color:  rgb(150, 99, 156);
-}
 
-#button2{
-    background-color: rgb(150, 99, 156);
-}
-
-#button3{
-    background-color: rgb(150, 99, 156);
-}
-#button4{
-    background-color:rgb(150, 99, 156) ;
-}
 
 .flexbox-bgrid-area-contactinfo{
   
@@ -59,7 +53,7 @@ background-color:rgb(103, 71, 107);
    margin-bottom: 70px;
    background-color: rgba(255, 255, 255, 0.616);
     color: rgb(150, 99, 156);
-    max-width: 70%;
+    max-width: 90%;
     text-align: baseline;
    
 
@@ -94,3 +88,32 @@ background-color:rgb(103, 71, 107);
    
 }
 
+.flexbox-bgrid-area-contactinfo button{
+    background-color: rgb(156, 86, 156);
+    border: none;
+    padding: 0%;
+    background-color: rgb(156, 86, 156);
+    border: none;
+    padding: 0%;
+    margin: 12px;
+    color: white;
+    border-radius: 2px;
+  
+
+}
+
+.flexbox-bgrid-area-contactinfo button:hover{
+    border: solid whitesmoke 3px;
+  
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(156, 86, 156);
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(68, 35, 68);
+}

@@ -31,21 +31,22 @@ color: rgb(103, 71, 107);
     display:none;
 }
 
-.item-agrid-image{
-  background-color: ivory;
+#imgAgrid{
+  max-width: 17em;
 }
 
 
 .item-agrid-area img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    max-width: 650px;
+    margin: auto;
     
    
 
    
     
 }
+
 
 
 

@@ -1,0 +1,38 @@
+
+
+body{
+    margin: 0;
+    display:grid;
+    grid-template-columns: repeat(9, 4fr);
+    grid-template-areas:
+    "h h h h h h h h h"
+    "h h h h h h h h h"
+    "b b b b b b b b b"
+    "f f f f f f f f f";
+     background-image: url(../4320533.jpg);
+    background-size: cover;     
+    background-repeat:   no-repeat;
+    background-position: center center;
+   
+}
+
+header {
+    
+    grid-area: h;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background-image: url(4320533.jpg);
+     /* background-image: url(bg.jpeg);*/
+    background-size: cover;     
+    background-repeat:   no-repeat;
+    background-position: center center;
+   
+   
+
+}
