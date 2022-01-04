@@ -50,18 +50,18 @@
 }
  
 .bigpic{
-    
     width: 80%;
 
 }
 
 .bigpic img{
-    width: 100%;
+    width: 80%;
 
 }
 
 .allpics{
     display:flex;
+    align-content: flex-start;
     flex-wrap: wrap;
    margin: 0px;
    width:120px;

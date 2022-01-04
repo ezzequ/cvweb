@@ -1,34 +1,16 @@
-function test(){
-    const testa = document.getElementById("test")
-    testa.innerHTML ="test"
+window.addEventListener('load', main);
+
+function main() {
+addEventListeners()
+copyTextOnClick()
 }
 
-function testBort(){
-    const testa = document.getElementById("test")
-    testa.style.display= null
-    const blind = document.getElementById("blind")
-    blind.style.display= null
-    const blind2 = document.getElementById("blind2")
-    blind2.style.display= null
+function addEventListeners() {
+  let email = document.getElementById("copyEmail");
+  email.addEventListener('click', copyTextOnClick)
+    
 }
 
-function testVisa(){
-    const testa = document.getElementById("test")
-    testa.style.display= "none"
-    const blind = document.getElementById("blind")
-    blind.style.display= "block"
-    const blind2 = document.getElementById("blind2")
-    blind2.style.display= null
-}
-
-function testVisa2(){
-    const testa = document.getElementById("test")
-    testa.style.display= "none"
-    const blind = document.getElementById("blind")
-    blind.style.display= null
-    const blind2 = document.getElementById("blind2")
-    blind2.style.display= "block"
-}
 
 function openArt(){
  document.getElementById("artdropdown-delay-top").style.transitionDelay = "0.4s"
@@ -47,6 +29,8 @@ function openArt(){
 
 }
 
+
+
 function closeArt(){
     document.getElementById("artdropdown-delay-top").style.transitionDelay = "0.1s"
  
@@ -64,50 +48,16 @@ function closeArt(){
     
 }
 
-// function makeImageBig(x){
-//    const images = document.querySelector("#artdropdown-delay-top > div > div.allpics")
-
-// }
-
-// function makeItBigNow(x){
-//    let pickedImage = document.getElementById(x).getAttribute('src')
-//    let pickedImageAlt = document.getElementById(x).getAttribute('alt')
-   
-
-
-//    document.getElementById("makeItBigNow").getAttribute('src').innerHTML = pickedImage
-//    document.getElementById(x).getAttribute('alt').innerHTML = pickedImageAlt
-//    console.log(pickedImage, pickedImageAlt)
-
-// }
-
-// function makeItBigNow(x){
-//     let pickedImage = document.getElementById(x).outerHTML
-//     let ShowImage = document.getElementById("makeItBigNow")
-   
-//     ShowImage.outerHTML = pickedImage
- 
-// 
-
-
-
-    // function makeItBigNow(x){
-    //     let pickedImage = document.getElementById(x).outerHTML
-        
-    //     let ShowImage = document.getElementById("makeItBigNow")
-       
-    //     ShowImage.outerHTML = pickedImage
-     
-    // }
-
   
-
-
-
  
-
-
-
+/**
+ *
+ *
+ * @this makeItBigNow
+ * @param {string} x
+ * @todo makes the clicked image bigger
+ * 
+ */
 function makeItBigNow(x){
         let pickedImage = document.getElementById(x)      
         let ShowImage = document.getElementById("makeItBigNow")
@@ -117,47 +67,28 @@ function makeItBigNow(x){
         
 }
 
+/**
+ * 
+ * @this copyTextOnClick
+ * @async
+ * @function copeTextOnClick
+ * @param {string} email - The text to copy.
+ * @return {Promise<string>} The text thats been copied.
+ * 
+ */
+function copyTextOnClick (){
+ let email = document.getElementById("emailDOM");
+ navigator.clipboard.writeText(email.value);
+ email.focus()
+ navigator.clipboard.readText(email.value)
+  console.log(email.value)
+}
 
-// function makeItBigNow(x){
-//     let pickedImage = document.getElementById(x)      
-//     let ShowImage = document.getElementById("makeItBigNow")
+
+  
    
-//     ShowImage = pickedImage
-//     for (var i = 0; i < imagesArray.length; i++) {
-//         imagesArray[i].addEventListener("click",makeItBigNow())
-//         (i).addEventListener('click', makeItBigNow)
-//     } 
-    
-// }
-
-// let imagesDOM = document.querySelectorAll("#artdropdown-delay-top > div > div.allpics > div.images >img")
-// let imagesArray = Array.from(imagesDOM)
-
-// console.log(imagesArray)
 
 
-// function makeItBigNow(x){
-// for (var i = 0; i < imagesArray.length; i++) {
-//         imagesArray[i].addEventListener("click",makeItBigNow(x))
-//         imagesArray.addEventListener('click', makeItBigNow)
-//     } 
+   
 
-//     let pickedImage = document.getElementById(x)      
-//     let ShowImage = document.getElementById("makeItBigNow")
-//     ShowImage = pickedImage
-// }
-
-
-// function makeItBigNow(x){
-// for (var i = 0; i < imagesArray.length; i++) {
-//         imagesArray[i].addEventListener("click", makeItBigNow(x))
-//         imagesArray.addEventListener('click', makeItBigNow)
-//     } 
-
-//     let pickedImage = document.getElementById(x)      
-//     let ShowImage = document.getElementById("makeItBigNow")
-//     ShowImage = pickedImage
-// }
-
-     
 
