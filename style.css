@@ -4,17 +4,19 @@
 
 body{
     margin: 0;
+    padding: 0;
     display:grid;
     grid-template-columns: repeat(9, 4fr);
     grid-template-areas:
     "h h h h h h h h h"
     "a a a a a a a a a"
     "a a a a a a a a a"
-    "b b b b b b b b b";
-    /* background-color: rgb(46, 17, 114); */
+    "b b b b b b b b b"
+    ;
     font-family: Optima;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
+
    
 }
 
@@ -59,19 +61,20 @@ agrid{
 
 
 bgrid{
+    margin: 0;
+    padding: 0;
     grid-area: b;
     justify-content: center;
     align-items: center;
-    
    grid-template-columns: auto;
     contain: content;
-
     background-image: url(flipped.jpg);
     background-size: cover;     
     background-repeat:   no-repeat;
     background-position: center;
 
 }
+
 
 
 

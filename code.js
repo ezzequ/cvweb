@@ -1,11 +1,11 @@
 window.addEventListener('load', main);
 
 function main() {
-addEventListeners()
+addEventListenersMain()
 copyTextOnClick()
 }
 
-function addEventListeners() {
+function addEventListenersMain() {
   let email = document.getElementById("copyEmail");
   email.addEventListener('click', copyTextOnClick)
     
