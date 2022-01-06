@@ -4,8 +4,7 @@
     align-items: top;
     padding-bottom: 20px;
    justify-content: flex-start, center;
-   
-  justify-content: center;
+   justify-content: center;
   color: rgb(150, 99, 156);
    
 
@@ -91,10 +90,10 @@ background-color: rgb(150, 99, 156);
 .flexbox-bgrid-area-contactinfo button{
     background-color: rgb(156, 86, 156);
     border: none;
-    padding: 0%;
+    padding: 0;
     background-color: rgb(156, 86, 156);
     border: none;
-    padding: 0%;
+    padding: 0;
     margin: 12px;
     color: white;
     border-radius: 2px;
@@ -108,7 +107,7 @@ background-color: rgb(150, 99, 156);
 
 }
 
-a {
+.flexbox-bgrid-area-contactinfo a {
     text-decoration: none;
     color: rgb(156, 86, 156);
 }
@@ -116,4 +115,34 @@ a {
 a:hover {
     text-decoration: none;
     color: rgb(68, 35, 68);
+}
+
+
+.footer{
+color: whitesmoke;
+justify-content: center;
+background-color: rgba(3, 2, 3, 0.199);
+text-align: center;
+bottom: 0;
+position: fixed;
+text-decoration: none;
+width: -webkit-fill-available;
+
+}
+
+.footer {
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.footer a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: blueviolet;
+
+
 }

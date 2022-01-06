@@ -5,7 +5,6 @@
     flex-direction: row;
     align-items: top;
     margin: auto;
-    width: 80%;
     
     
 }
@@ -23,18 +22,6 @@ padding: 10px;
 color: rgb(103, 71, 107);
     
 }
-#blind{
-    display:none;
-}
-
-#blind2{
-    display:none;
-}
-
-#imgAgrid{
-  max-width: 17em;
-}
-
 
 .item-agrid-area img{
     max-width: 100%;
