@@ -1,0 +1,81 @@
+*{
+    font-family: Optima;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display:grid;
+    grid-template-columns: repeat(9, 4fr);
+    grid-template-areas:
+    "h h h h h h h h h"
+    "a a a a a a a a a"
+    "a a a a a a a a a"
+    "b b b b b b b b b"
+    ;
+    font-family: Optima;
+    background-size: cover;
+    min-height: 100vh;
+
+   
+}
+
+header {
+    
+    grid-area: h;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background-image: url(/imgs/4320533.jpg);
+     /* background-image: url(bg.jpeg);*/
+    background-size: cover;     
+    background-repeat:   no-repeat;
+    background-position: center center;
+   
+   
+
+}
+
+agrid{
+    grid-area: a;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto;
+    contain: content;
+    margin: auto;
+    align-content: center;
+    /*padding: 90px;*/
+    border-color: rgba(255, 182, 193, 0);
+    /*border-bottom-style: dashed;
+    border-width: 3px;
+    border-top-width: 3px;*/
+    
+}
+
+
+
+
+bgrid{
+    margin: 0;
+    padding: 0;
+    grid-area: b;
+    justify-content: center;
+    align-items: center;
+   grid-template-columns: auto;
+    contain: content;
+    background-image: url(/imgs/flipped.jpg);
+    background-size: cover;     
+    background-repeat:   no-repeat;
+    background-position: center;
+
+}
+
+
+
+
+

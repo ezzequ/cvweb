@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./drop-artwork.css">
-    <link rel="stylesheet" href="./agrid.css">
-    <link rel="stylesheet" href="./header.css">
-    <link rel="stylesheet" href="./bgrid.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/drop-artwork.css">
+    <link rel="stylesheet" href="./css/agrid.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/bgrid.css">
     <script src="https://use.fontawesome.com/2012cc4524.js"></script>
     <script src="https://kit.fontawesome.com/1ecf6754ff.js" crossorigin="anonymous"></script>
-    <script defer src="./code.js"></script>
+    <script defer src="./code/code.js"></script>
 </head>
 <body> 
-    <div id="artdropdown" class="overlay"><h2>first</h2></div>
+    <div id="artdropdown" class="overlay"></div>
     <div id="artdropdown-delay-top"class="overlay-top">
         <button id="closeart" onclick="closeArt()">close</button>
         <h2> Art-Work And illustartions made by me </h2> 
@@ -27,19 +27,19 @@
         <div class="allpics"> 
             <div class="images">
                 
-                <img id="magician" src="./IMG_3774.jpeg" alt="magicianImage" onclick="makeItBigNow('magician')">
-                <img id= "floating" src="./IMG_0098.jpg" alt="floating"onclick="makeItBigNow('floating')" >
+                <img id="magician" src="/imgs/IMG_3774.jpeg" alt="magicianImage" onclick="makeItBigNow('magician')">
+                <img id= "floating" src="/imgs/IMG_0098.jpg" alt="floating"onclick="makeItBigNow('floating')" >
           
           
-                <img id="houseday" src="./IMG_1488.JPG" alt="houseday"onclick="makeItBigNow('houseday')" >
-                <img id="housered"src="./IMG_1486.JPG" alt="housered"onclick="makeItBigNow('housered')" >
-                <img id="space"src="./IMG_0418.jpeg" alt="space"onclick="makeItBigNow('space')" >
-                <img id="whales"src="IMG_8410.jpeg" alt="whales"onclick="makeItBigNow('whales')" >
+                <img id="houseday" src="/imgs//IMG_1488.JPG" alt="houseday"onclick="makeItBigNow('houseday')" >
+                <img id="housered"src="/imgs//IMG_1486.JPG" alt="housered"onclick="makeItBigNow('housered')" >
+                <img id="space"src="/imgs/IMG_0418.jpeg" alt="space"onclick="makeItBigNow('space')" >
+                <img id="whales"src="/imgs/IMG_8410.jpeg" alt="whales"onclick="makeItBigNow('whales')" >
                 
           
            
-                <img id ="alice"src="./image0.jpeg" alt="alice" onclick="makeItBigNow('alice')">
-                <img id="fish" src="IMG_6687.jpeg" alt="fish"onclick="makeItBigNow('fish')" >
+                <img id ="alice"src="/imgs/image0.jpeg" alt="alice" onclick="makeItBigNow('alice')">
+                <img id="fish" src="/imgs/IMG_6687.jpeg" alt="fish"onclick="makeItBigNow('fish')" >
             </div>
         </div>
     </div>
@@ -66,18 +66,18 @@
     <agrid>
        
         <div class="flexbox-agrid-area-row">
-            <div class="item-agrid-area" id="imgAgrid"><img src="./bw.jpeg"></div>
-            <div class="item-agrid-area"><h3>This is me</h3> <br>
+            <div class="item-agrid-area" id="imgAgrid"><img src="/imgs/bw.jpeg"></div>
+            <div class="item-agrid-area"><h4>This is me</h4> <br>
                 <p>I am Esther Reichmann, a 22 year old frontend develepor student living in Sweden</p> <br>
             </div>
             
     </div>
     </agrid> 
     <bgrid> 
-        <h2 id="text-bgrid-area">find out more about me</h2>
+        <h4 id="text-bgrid-area">find out more about me</h4>
         <div class ="flexbox-bgrid-area">
             <div  class="item-bgrid-area"><button id="button1" onclick="openArt()" ><p>artwork and illustrations</p></button></div>
-            <div  class="item-bgrid-area"><button id="button3" onclick="window.location.href='alt/education.html'"><p>education and work experience</p></button></div>
+            <div  class="item-bgrid-area"><button id="button3" onclick="window.location.href='/education.html'"><p>education and work experience</p></button></div>
             <div class="item-bgrid-area"><button id="button4"><p>personal letter</p></button></div>
         
     </div>
