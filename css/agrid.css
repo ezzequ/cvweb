@@ -37,6 +37,11 @@ color: rgb(103, 71, 107);
     
 }
 
+#longText{
+
+    max-width: 500px;
+}
+
 
 
 
