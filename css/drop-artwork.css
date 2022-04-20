@@ -7,7 +7,7 @@
    z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba(107, 64, 109, 0.568);
+    background-color: rgba(149, 104, 117, 0.568);
     overflow-y: hidden;
     transition: 0.5s;
    
@@ -55,16 +55,20 @@
 }
 
 .bigpic img{
-    width: 80%;
+    margin-left:80px;
+    width: 90%;
+    min-width: 200px;
 
 }
 
 .allpics{
+    position: absolute;
     display:flex;
-    align-content: flex-start;
+    align-content: flex-end;
     flex-wrap: wrap;
    margin: 0px;
-   width:120px;
+   max-width:150px;
+   min-width: 100px;
    
 
 
@@ -74,13 +78,13 @@
 
 .allpics img{
     
-    width: 100px;
+    width: 50%;
    
 
 }
 
 .images{
-    padding: 5px;
+    padding: 2px;
     justify-content: center;
     margin: auto;
     align-items: center;
@@ -88,7 +92,7 @@
 
 #closeart{
     border:none;
-    background-color: rgb(112, 79, 143);
+    background-color: rgb(182, 120, 133);
     color: whitesmoke;
     padding: 5px;
     border-radius: 5px;

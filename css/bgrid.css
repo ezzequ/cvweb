@@ -5,39 +5,37 @@
     padding-bottom: 20px;
    justify-content: flex-start, center;
    justify-content: center;
-  color: rgb(150, 99, 156);
+  
    
 
 }
 .item-bgrid-area{
 text-align: center;
 padding: 10px;
-color: rgb(103, 71, 107);
 justify-content: center;
 
     
 }
 
 .item-bgrid-area button{
-padding: 2px;
-border-radius: 5px;
+padding: 10px;
 border: none;
-color: rgb(238, 238, 238);
-background-color: rgb(150, 99, 156);
-
+color: white;
+/* background-color:rgb(196,122,155) */
+background-color: #8387ea;
 
 }
 
 
 .item-bgrid-area button:hover{
-    background-color:rgb(109, 58, 109);
-    
-    
+  border: solid 4px #8387ea ; 
+  padding: 6px;
+  background-color: #8387ea00;
+  color: black;
 }
 
 #text-bgrid-area{
     text-align: center;
-    color: rgb(103, 71, 107);
     font-family: Arial, 'Courier New',;
 }
 
@@ -50,17 +48,16 @@ background-color: rgb(150, 99, 156);
     align-items: top;
    padding-bottom: 20px;
    margin-bottom: 70px;
-   background-color: rgba(255, 255, 255, 0.616);
-    color: rgb(150, 99, 156);
+   background-color: #ffeae4;
     margin-right: 10%;
     text-align: baseline;
-   
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
 
 }
 
 .flexbox-bgrid-area-contactinfo i{
     padding:12px;
-    color:rgb(104, 53, 109);
     border-radius: 80px;
     font-weight: bolder;
     align-content: baseline;
@@ -88,38 +85,35 @@ background-color: rgb(150, 99, 156);
 }
 
 .flexbox-bgrid-area-contactinfo button{
-    background-color: rgb(156, 86, 156);
+    background-color: #8387ea;
     border: none;
-    padding: 0;
-    background-color: rgb(156, 86, 156);
+    padding: 10px;
     border: none;
     padding: 0;
     margin: 12px;
-    color: white;
-    border-radius: 2px;
   
 
 }
 
 .flexbox-bgrid-area-contactinfo button:hover{
-    border: solid whitesmoke 3px;
+   border: solid #ffa9a9 ;
   
 
 }
 
 .flexbox-bgrid-area-contactinfo a {
     text-decoration: none;
-    color: rgb(156, 86, 156);
+    color: #8387ea;
 }
 
 a:hover {
     text-decoration: none;
-    color: rgb(68, 35, 68);
+    color: #090909;
 }
 
 
 .footer{
-color: whitesmoke;
+color: black;
 justify-content: center;
 background-color: rgba(3, 2, 3, 0.199);
 text-align: center;
@@ -132,17 +126,17 @@ width: -webkit-fill-available;
 
 .footer {
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
 
 }
 
 .footer a{
-    color: whitesmoke;
+    color: black;
     text-decoration: none;
 }
 
 .footer a:hover{
-    color: blueviolet;
+     color: #520d1c;
 
 
 }

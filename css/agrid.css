@@ -14,33 +14,44 @@
     flex-direction: column;
     align-items: top;
     margin: auto;
+  
     
 }
 .item-agrid-area{
-text-align: center;
-padding: 5px;
-color: rgb(103, 71, 107);
-    
+margin-bottom: -300px;
+text-align: left;
+padding: 10px;
+color: rgb(0, 0, 0);
+ width: -webkit-fill-available;
+ align-content: center;
+ text-align: center;
+ margin: auto;
+ justify-content: center;
 }
 
 .item-agrid-area img{
     width:100%;
-    max-width: 400px;
-    height: auto;
-    margin: auto;
-     
-  
-    
-   
-
    
     
 }
 
 #longText{
-
-    max-width: 500px;
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+  color: rgb(0, 0, 0);
 }
+
+#imgAgrid img{
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+    margin-bottom: -200px;
+
+
+}
+
+
 
 
 

@@ -2,13 +2,16 @@ window.addEventListener('load', main);
 
 function main() {
 addEventListenersMain()
-copyTextOnClick()
+
 }
 
 function addEventListenersMain() {
   let email = document.getElementById("copyEmail");
-  email.addEventListener('click', copyTextOnClick)
-    
+  email.addEventListener("click", copyTextOnClick);
+    let navArtwork = document.getElementById("navbarart");
+    navArtwork.addEventListener("click",openArt);
+    let ToggleContactBox = document.getElementById("navTextContact");
+   ToggleContactBox.addEventListener("click",toggleContact)
 }
 
 
@@ -26,9 +29,16 @@ function openArt(){
 
 }
  
-
 }
 
+function toggleContact() {
+  let contactBox = document.getElementById("contact");
+  if (contactBox.style.display == "none") {
+    contactBox.style.display = "block";
+  } else {
+    contactBox.style.display = "none";
+  }
+}
 
 /**
  * function to make a curtain dropdown that makes it look like 2 drops
@@ -69,6 +79,8 @@ function makeItBigNow(x){
        
         
 }
+
+
 
 /**
  * 
