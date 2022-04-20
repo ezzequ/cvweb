@@ -17,6 +17,136 @@
 <body> 
     <div id="artdropdown" class="overlay"></div>
     <div id="artdropdown-delay-top"class="overlay-top">
+        <button id="closeart" onclick="closeArt()">stäng</button>
+        <h2> Art-Work And illustartions av mig </h2> 
+        <p>tryck på varje bild för att se den i större storlek</p>
+        <div class="artwork-flexbox">
+        <div class="bigpic" id="viewImageDOM">
+            <img id="makeItBigNow" src="" alt="">
+        </div>
+        <div class="allpics"> 
+            <div class="images">
+                
+                <img id="magician" src="imgs/IMG_3774.jpeg" alt="magicianImage" onclick="makeItBigNow('magician')">
+                <img id= "floating" src="imgs/IMG_0098.jpg" alt="floating"onclick="makeItBigNow('floating')" >
+                <img id="smileIllustration" src="imgs/IMG_8650.jpg" alt="smileIllustration"onclick="makeItBigNow('smileIllustration')" >
+          
+          
+                <img id="houseday" src="imgs//IMG_1488.JPG" alt="houseday"onclick="makeItBigNow('houseday')" >
+                <img id="housered"src="imgs//IMG_1486.JPG" alt="housered"onclick="makeItBigNow('housered')" >
+                <img id="space"src="imgs/IMG_0418.jpeg" alt="space"onclick="makeItBigNow('space')" >
+                <img id="whales"src="imgs/IMG_8410.jpeg" alt="whales"onclick="makeItBigNow('whales')" >
+                
+          
+           
+                
+                <img id="fish" src="imgs/IMG_6687.jpeg" alt="fish"onclick="makeItBigNow('fish')" >         
+                
+                <img id="fireGif" src="imgs/IMG_4927.gif" alt="fireGif"onclick="makeItBigNow('fireGif')" >
+        </div>  
+            </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   
+    
+    
+    
+
+    <header>
+
+    <div class="header">
+<div class="border-box">
+          <div class="sidemenu">
+               <div><a href="https://github.com/ezzequ"> <i class="fab fa-github fa-2x"></i> </a> </div> 
+                <div id="navTextContact"><p>contact</p>
+                     <div id="contact">
+                    <p>esther.reichmann@me.com</p>
+                    <p>linkedIn: kommer snart</p>
+                </div>
+                </div>
+              <div id="navbarart" onclick="openArt()"> <p >artwork</p></div> 
+                
+    </div>
+    <div class="home">
+     
+         <div id="imgAgrid">
+             <img src="imgs/bwme.png"></div>
+        
+         <div id="nameBox">
+       <div><h1 id="first"> Esther</h1></div>
+       <div><h1 id="last"> Reichmann</h1></div>
+         </div>
+    </div>
+</div>
+
+</div>
+
+
+    </header>
+    <agrid>
+       
+        <div class="flexbox-agrid-area-row">
+           
+            <div class="item-agrid-area"><h4>Vem är jag?</h4> <br>
+                <p id="longText">
+                    Hej! 
+                    mitt namn är Esther Reichmann, är 22 år gammal och stuederar för närvarande till att bli frontend developer på medieinstitutet i Göteborg. 
+                    Som person är jag lugn, ansvarsfull och pålitlig. En kämpe och lagspelare som alltid försöker göra mitt bästa och få de runt om kring mig att känna sig delaktiga.
+                     min stora passion är UX och UI-Design, koda och utveckla användarvänliga prudukter som är lättförståliga och en estetisk fröjd för ögat.
+            
+                    
+                </p>
+            </div>
+            
+    </div>
+    </agrid> 
+    <bgrid> 
+        <h5 id="text-bgrid-area">mer om mig</h5>
+        <div class ="flexbox-bgrid-area">
+            <div  class="item-bgrid-area"><button id="button1" onclick="openArt()" ><p>artwork and illustrations</p></button></div>
+            <div  class="item-bgrid-area"><button id="button3" onclick="window.location.href='education.html'"><p>Utbildning och Arbetsliv erfarenhet</p></button></div>
+          
+        
+    </div>
+    <div class ="flexbox-bgrid-area-contactinfo">
+        <p style=>kontakt och sociala medier:</p>
+         <div id="copyEmail" class="contact-row"><i class="far fa-envelope"></i><p> esther.reichmann@me.com</p> <input id="emailDOM" type="hidden" value="esther.reichmann@me.com"><button id=mailbutton>copy email</button></div>
+         <div class="contact-row"><i class="fab fa-github"></i><a href="https://github.com/ezzequ"><p>ezzequ</p></a></div>
+    </div>
+         
+       
+
+            <div class="footer"> <p>@Esther Reichmann. <a href='https://www.freepik.com/photos/background'>Background photo created by rawpixel.com - www.freepik.com</a> </p></div>
+           
+</bgrid>
+
+        
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/drop-artwork.css">
+    <link rel="stylesheet" href="./css/agrid.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/bgrid.css">
+    <script src="https://use.fontawesome.com/2012cc4524.js"></script>
+    <script src="https://kit.fontawesome.com/1ecf6754ff.js" crossorigin="anonymous"></script>
+    <script defer src="./code/code.js"></script>
+</head>
+<body> 
+    <div id="artdropdown" class="overlay"></div>
+    <div id="artdropdown-delay-top"class="overlay-top">
         <button id="closeart" onclick="closeArt()">close</button>
         <h2> Art-Work And illustartions made by me </h2> 
         <p>press an image to view it in a bigger size!</p>
@@ -29,6 +159,7 @@
                 
                 <img id="magician" src="imgs/IMG_3774.jpeg" alt="magicianImage" onclick="makeItBigNow('magician')">
                 <img id= "floating" src="imgs/IMG_0098.jpg" alt="floating"onclick="makeItBigNow('floating')" >
+                <img id="smileIllustration" src="imgs/IMG_8650.jpg" alt="smileIllustration"onclick="makeItBigNow('smileIllustration')" >
           
           
                 <img id="houseday" src="imgs//IMG_1488.JPG" alt="houseday"onclick="makeItBigNow('houseday')" >
@@ -39,7 +170,11 @@
           
            
                 <img id ="alice"src="imgs/image0.jpeg" alt="alice" onclick="makeItBigNow('alice')">
-                <img id="fish" src="imgs/IMG_6687.jpeg" alt="fish"onclick="makeItBigNow('fish')" >
+                <img id="fish" src="imgs/IMG_6687.jpeg" alt="fish"onclick="makeItBigNow('fish')" >         
+                
+                <img id="fireGif" src="imgs/IMG_4927.gif" alt="fireGif"onclick="makeItBigNow('fireGif')" >
+        </div>  
+            </div>
             </div>
         </div>
     </div>
@@ -66,22 +201,26 @@
     <agrid>
        
         <div class="flexbox-agrid-area-row">
-            <div class="item-agrid-area" id="imgAgrid"><img src="imgs/bw.jpeg"></div>
+            <div class="item-agrid-area" id="imgAgrid"><img src="imgs/pixlr-bg-result.png"></div>
             <div class="item-agrid-area"><h4>Vem är jag?</h4> <br>
-                <p id="longText">Som person är jag lugn, ansvarsfull och pålitlig. Detta märks tydligt då jag i mina senaste arbeten jobbat med ansvar för små barn samt med dementa på ett äldreboende. Jag är en kämpe och lagspelare som alltid försöker göra mitt bästa och få de runt om kring mig att känna sig delaktiga.
-                    Ansvar och fritt arbete är något jag är van vid, likaså kundrelationer och hög servicenivå. Något jag lärt mig genom min tid inom ålderdomshem- och evenemangbranschen.
-                    Tack vare mitt lugna och positiva sätt har jag lätt för att bli vän med alla.
+                <p id="longText">
+                    Hej! 
+                    mitt namn är Esther Reichmann, är 22 år gammal och stuederar för närvarande till att bli frontend developer på medieinstitutet i Göteborg. 
+                    Som person är jag lugn, ansvarsfull och pålitlig. En kämpe och lagspelare som alltid försöker göra mitt bästa och få de runt om kring mig att känna sig delaktiga.
+                     min stora passion är UX och UI-Design, att är utveckla och ta fram användarvänliga prudukter som är lättförståliga och en estetisk fröjd för ögat.
+            
+                    
                 </p> <br>
             </div>
             
     </div>
     </agrid> 
     <bgrid> 
-        <h4 id="text-bgrid-area">mer om mig</h4>
+        <h5 id="text-bgrid-area">mer om mig</h5>
         <div class ="flexbox-bgrid-area">
             <div  class="item-bgrid-area"><button id="button1" onclick="openArt()" ><p>artwork and illustrations</p></button></div>
             <div  class="item-bgrid-area"><button id="button3" onclick="window.location.href='education.html'"><p>Utbildning och Arbetsliv erfarenhet</p></button></div>
-           <!-- <div class="item-bgrid-area"><button id="button4"><p>personal letter</p></button></div>-->
+          
         
     </div>
     <div class ="flexbox-bgrid-area-contactinfo">
@@ -98,4 +237,4 @@
 
         
 </body>
-</html>
+</html> -->
