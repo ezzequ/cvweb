@@ -15,7 +15,7 @@ body{
     background-repeat:   no-repeat;
     background-position: center center;
     font-family: "comfortaa";
-    background-image: url(./imgs/MyBackgroung.JPG);
+    background-image: url(/imgs/MyBackgroung.JPG);
     height: 100vh;
     
 }
