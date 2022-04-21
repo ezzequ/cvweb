@@ -16,7 +16,7 @@ body{
     background-position: center center;
     font-family: "comfortaa";
     background-image: url(../imgs//MyBackgroung.JPG);
-    height: 100vh;
+    min-height: 80vh;
     
 }
 
@@ -33,7 +33,7 @@ header {
     background-size: cover;     
     background-repeat:   no-repeat;
     background-position: center center;
-   width: 100%;
+    min-width:70%
    
    
 
@@ -75,9 +75,16 @@ a:hover{
     overflow: auto;
     color:rgba(173, 216, 230, 0);
     text-align: left;
+    cursor: pointer;
+    
     
     
 }
+
+
+
+
+
 .grow a{
     text-decoration: underline;
     font-weight: bold;
@@ -116,9 +123,12 @@ h2{
 }
 .workexperienceeducation {
     text-align: center;
-    color: white;
+    text-shadow: 8px 3px 4px #2c2c2c39;
+    color: rgb(255, 255, 255);
   width: -webkit-fill-available;
 }
+
+
 @keyframes unfold {
 
     0% {
@@ -128,7 +138,10 @@ h2{
         color: rgba(173, 216, 230, 0);
         background-color: #ffeae4;
         
+        
     }
+
+    
 
     25% {
         width:90%;
@@ -175,7 +188,7 @@ h2{
     justify-content: center;
     margin: auto;
     background-color: rgba(80, 78, 78, 0);
-   text-shadow:10px 4px rgba(75, 69, 69, 0.137); 
+   text-shadow:10px 8px 5px rgba(75, 69, 69, 0.225); 
    z-index: 2;
   
     
